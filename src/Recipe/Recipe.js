@@ -1,31 +1,31 @@
 import { Container, Grid, Typography, Item } from "@mui/material";
 
 const breakfast = {
-  name: "JAGLANKA NA MLEKU KOKOSOWYM",
+  name: 'JAGLANKA NA MLEKU KOKOSOWYM',
   howTo:
-    "Do podania: owoce (porzeczki, maliny, wisnie, truskarki, borowki), syrop klonowy, cynamon Kasze optucz, wsyp do garnka, dodaj jagody i podpraz prez 2 minuty, czesto mieszajac. Wej mleko i wode, wymieszaj. Gotuj, az kasza wchtonie plyn ok. I5 minut. Od czasu do czasu zamieszaj. Przeló¿ do misek, oprósz cynamonem, podawaj z owocami i syropem klonowym.",
+    'Do podania: owoce (porzeczki, maliny, wisnie, truskarki, borowki), syrop klonowy, cynamon Kasze optucz, wsyp do garnka, dodaj jagody i podpraz prez 2 minuty, czesto mieszajac. Wej mleko i wode, wymieszaj. Gotuj, az kasza wchtonie plyn ok. I5 minut. Od czasu do czasu zamieszaj. Przeló¿ do misek, oprósz cynamonem, podawaj z owocami i syropem klonowym.',
   extra:
-    "Kasza jaglana jest lekkostrawna i bogata w witaminy z grupy B, zelazo i miedz. Wspaniala do dan wytrawnych i stodkich. Idealna na pozywne sniadanie. Zamiast mleka kokosowego mozesz dodac migdatowe, ryzowe, sojowe. Do jaglanki, zamiast goji, dodaj suszona zurawine, kilka sliwek lub moreli.",
+    'Kasza jaglana jest lekkostrawna i bogata w witaminy z grupy B, zelazo i miedz. Wspaniala do dan wytrawnych i stodkich. Idealna na pozywne sniadanie. Zamiast mleka kokosowego mozesz dodac migdatowe, ryzowe, sojowe. Do jaglanki, zamiast goji, dodaj suszona zurawine, kilka sliwek lub moreli.',
   ingridients: [
     {
-      name: "kasza jaglana",
+      name: 'kasza jaglana',
       amount: 220,
-      unit: "g",
+      unit: 'g',
     },
     {
-      name: "Jagody goji",
+      name: 'Jagody goji',
       amount: 3,
-      unit: "łyki",
+      unit: 'łyki',
     },
     {
-      name: "mleko kokosowe",
+      name: 'mleko kokosowe',
       amount: 0.4,
-      unit: "l",
+      unit: 'l',
     },
     {
-      name: "woda",
+      name: 'woda',
       amount: 0.5,
-      unit: "l",
+      unit: 'l',
     },
   ],
   time: 20,
@@ -62,7 +62,7 @@ const lunch = {
     },
     {
       name: 'suszone pomidory',
-      amount: "4-5",
+      amount: '4-5',
       unit: 'pieces',
     },
     {
@@ -88,7 +88,7 @@ const lunch = {
     {
       name: 'ocet balsamiczny',
       amount: '3',
-      unit: "spoon",
+      unit: 'spoon',
     },
     {
       name: 'czosnek',
@@ -98,7 +98,7 @@ const lunch = {
     {
       name: 'natka posiekana',
       amount: '1',
-      unit: "spoon",
+      unit: 'spoon',
     },
     {
       name: 'świezo mielony pieprz',
