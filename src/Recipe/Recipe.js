@@ -1,9 +1,11 @@
 import { Container, Grid, Typography, Item } from "@mui/material";
 
 const breakfast = {
-  name: 'JAGLANKA NA MLEKU KOKOSOWYM',
-  howTo: 'Do podania: owoce (porzeczki, maliny, wisnie, truskarki, borowki), syrop klonowy, cynamon Kasze optucz, wsyp do garnka, dodaj jagody i podpraz prez 2 minuty, czesto mieszajac. Wej mleko i wode, wymieszaj. Gotuj, az kasza wchtonie plyn ok. I5 minut. Od czasu do czasu zamieszaj. Przeló¿ do misek, oprósz cynamonem, podawaj z owocami i syropem klonowym.',
-  extra: 'Kasza jaglana jest lekkostrawna i bogata w witaminy z grupy B, zelazo i miedz. Wspaniala do dan wytrawnych i stodkich. Idealna na pozywne sniadanie. Zamiast mleka kokosowego mozesz dodac migdatowe, ryzowe, sojowe. Do jaglanki, zamiast goji, dodaj suszona zurawine, kilka sliwek lub moreli.',
+  name: "JAGLANKA NA MLEKU KOKOSOWYM",
+  howTo:
+    "Do podania: owoce (porzeczki, maliny, wisnie, truskarki, borowki), syrop klonowy, cynamon Kasze optucz, wsyp do garnka, dodaj jagody i podpraz prez 2 minuty, czesto mieszajac. Wej mleko i wode, wymieszaj. Gotuj, az kasza wchtonie plyn ok. I5 minut. Od czasu do czasu zamieszaj. Przeló¿ do misek, oprósz cynamonem, podawaj z owocami i syropem klonowym.",
+  extra:
+    "Kasza jaglana jest lekkostrawna i bogata w witaminy z grupy B, zelazo i miedz. Wspaniala do dan wytrawnych i stodkich. Idealna na pozywne sniadanie. Zamiast mleka kokosowego mozesz dodac migdatowe, ryzowe, sojowe. Do jaglanki, zamiast goji, dodaj suszona zurawine, kilka sliwek lub moreli.",
   ingridients: [
     {
       name: "kasza jaglana",
@@ -31,6 +33,84 @@ const breakfast = {
   amountOfPortions: 4,
 };
 
+const lunch = {
+  name: 'SAłATKA Z BURAKAMI CIECIERZYCA',
+  howTo:
+    'Buraki pokrój na plasterki, pretoz na polmisek. Dodaj oplukana ciecierzyce, pokrojone a paski suszone pomidory;, kapary i kawatki awokado. Oliwe wymieszaj z octem i natka, dodaj precisniety przez praske czosnek, polej salatke. Posy pokruszona feta, pestkami granatu i slonecanika, oprosz pieprzem.',
+  extra:
+    'Prosta salatka z buralami w roli glownej. Zamiast fety moze by mozzarella ailbo ser z blgkiuna plesnia, zamiast ciecierzycy - fasola z pusaki. Dodadiowo wizué oliwki i kawalki pieczonej papryki. Zamiast pestek granatu dodaj inne owoce, ktore sprawdzaja sig w wytrawnych salackach - Sliwki, maliny, borowki.',
+  ingridients: [
+    {
+      name: 'buraki (gotowane, pieczone)',
+      amount: '300',
+      unit: 'g',
+    },
+    {
+      name: 'awokado',
+      amount: '1',
+      unit: 'pieces',
+    },
+    {
+      name: 'ciecierzuca (z puszki, stoika)',
+      amount: '200',
+      unit: 'g',
+    },
+    {
+      name: 'feta',
+      amount: '150',
+      unit: 'g',
+    },
+    {
+      name: 'suszone pomidory',
+      amount: "4-5",
+      unit: 'pieces',
+    },
+    {
+      name: 'kapary',
+      amount: '1',
+      unit: 'small spons',
+    },
+    {
+      name: 'pestki granatu',
+      amount: '2',
+      unit: 'spoons',
+    },
+    {
+      name: 'pestki stonecznika',
+      amount: '1',
+      unit: 'spoon',
+    },
+    {
+      name: 'oliwa',
+      amount: '3',
+      unit: 'spoon',
+    },
+    {
+      name: 'ocet balsamiczny',
+      amount: '3',
+      unit: "spoon",
+    },
+    {
+      name: 'czosnek',
+      amount: '1',
+      unit: 'cloves',
+    },
+    {
+      name: 'natka posiekana',
+      amount: '1',
+      unit: "spoon",
+    },
+    {
+      name: 'świezo mielony pieprz',
+      amount: 'at your discretion',
+      unit: 'at your discretion',
+    },
+  ],
+  time: 10,
+  kcal: 412,
+  amountOfPortions: 4,
+};
+
 const Recipe = ({ name }) => {
   return (
     <Container maxWidth="xl">
@@ -52,6 +132,7 @@ const Recipe = ({ name }) => {
           <Typography variant="h5" component="h4" gutterBottom>
             Lunch
           </Typography>
+          <Recipe {...lunch} />
           <Typography variant="h5" component="h4" gutterBottom>
             Dinner
           </Typography>
